@@ -58,3 +58,7 @@ method `GET` for endpoint `http://127.0.0.1:8002/books` use example:
   }
 ]
 ```
+
+## This is sample adding documentation from new branch for guide documentation
+
+- see you --
