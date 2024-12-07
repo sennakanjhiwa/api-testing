@@ -22,7 +22,7 @@ type UserController struct {
 
 func (c *UserController) Get(ctx raiden.Context) error {
 	c.Result = []UserResponse{
-		{ID: 1, Name: "Jhon", Age: 33},
+		{ID: 1, Name: "Jhon", Age: 35},
 	}
 	return ctx.SendJson(c.Result)
 }
