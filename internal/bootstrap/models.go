@@ -6,6 +6,5 @@ import (
 )
 
 func RegisterModels() {
-	resource.RegisterModels(
-	)
+	resource.RegisterModels()
 }
