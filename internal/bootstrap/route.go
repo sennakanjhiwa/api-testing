@@ -13,6 +13,12 @@ func RegisterRoute(server *raiden.Server) {
 		raiden.NewRouteFromController(&raiden_controllers.StateReadyController{}, []string{fasthttp.MethodPost}),
 		{
 			Type:       raiden.RouteTypeCustom,
+			Path:       "/books",
+			Methods:    []string{fasthttp.MethodGet},
+			Controller: &controllers.BooksController{},
+		},
+		{
+			Type:       raiden.RouteTypeCustom,
 			Path:       "/hello/{name}",
 			Methods:    []string{fasthttp.MethodGet},
 			Controller: &controllers.HelloWordController{},
