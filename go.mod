@@ -3,7 +3,7 @@ module apimedpoint
 go 1.23.3
 
 require (
-	github.com/sev-2/raiden v0.0.1
+	github.com/sev-2/raiden v1.0.0-beta.28
 	github.com/spf13/cobra v1.8.0
 	github.com/valyala/fasthttp v1.57.0
 )
